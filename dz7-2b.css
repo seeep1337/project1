@@ -1,5 +1,6 @@
 body {}
 .site {width: 1400px; position: absolute; margin-left: -700px; left: 50%; top: -2px; overflow: hidden;}
+
 .header {position: relative;}
 .h_title {color: #ee8129; font-size: 34px; margin: 0 0; line-height: 3.53em; font-family: "Myriad Pro"; font-weight: normal;
     padding-left: 190px;}
@@ -9,8 +10,8 @@ body {}
 .h_menu > li {display: inline-block; padding: 0 18px;}
 .h_menu_link {text-decoration: none; padding-bottom: 42px;  color: #a0a0a0;}
 .h_menu_link:hover {border-bottom: solid #3070a8 5px; color: #3070a8;}
-.description {font-family: "Myriad Pro";color: #ffffff; position: relative; top: -54px; height: 584px;
-     }
+
+.description {font-family: "Myriad Pro";color: #ffffff; position: relative; top: -54px; height: 584px;}
 .d_main {font-size: 48pt; text-transform: uppercase; text-align: center; font-weight: bold; padding-top: 50px;}
 .d_begin {font-size: 36pt; text-transform: none; font-weight: normal;}
 .d_bg {position: absolute; top: 0; left: 0; z-index: -1;}
@@ -18,6 +19,31 @@ body {}
     text-align: justify;}
 .d_button {width: 246px; height: 62px; background-color: transparent; color: #ffffff; text-transform: uppercase;
     border: solid  2px rgba(255,255,255,0.5); position: relative; left: 50%; margin-left: -123px; top: 25px;}
+
+.services {background-color: #ffffff; padding-bottom: 55px; position: relative; top: -55px; }
+.srv_otstup {margin: 0 190px;}
+.srv_title {text-transform: uppercase; color: #41525c;  margin: 0;
+    text-align: center; margin-top: 70px; font-family: "Trebuchet MS"; font-size: 22px;}
+.srv_services {width: 30%; display: inline-block;}
+.srv_services_center {margin-left: -0.36em; padding: 0 5% 0 5%; }
+.srv_services_right {margin-left: -0.36em;}
+.srv_img {background-repeat: no-repeat; height: 141px; width: 142px;
+    margin-top: 80px; margin-left: auto; margin-right: auto;}
+.srv_img_1 {background-image: url("11.png");}
+.srv_img_2 {background-image: url("22.png");}
+.srv_img_3 {background-image: url("33.png");}
+.srv_name {margin: 35px auto 0 auto; text-transform: uppercase; font-family: "Trebuchet MS";
+    font-size: 22px; color: #3070a8; text-align: center;}
+.srv_text {margin-top: 25px; color: #999999; font-family: "Myriad Pro"; text-align: justify;
+    text-align-last: center; line-height: 2em;}
+
+.middle_section {background-image: url("dz8-3.jpg"); position: relative; top: -55px;}
+.ms_otstup {margin-left: 190px; padding: 50px 0; width: 770px; border: solid red 2px;  height: 474px;}
+.ms_title {color: #ee8129; font-size: 26px; text-transform: uppercase; line-height: 1.8em;}
+.ms_title_2 {color: #ffffff; font-size: 19px; margin-top: 0; padding-top: 0;}
+.ms_spisok {color: #9d9d9d; font-size: 16px; line-height: 2em; margin-top: 30px;}
+.ms_spisok > li {margin-top: 10px;}
+li:nth-child(even) {color: #3070a8;}
 
 .commercial {font-family: "Trebuchet MS"; position: relative; border: solid white 2px; top: -55px;}
 .title {font-weight: bold; font-size: 28pt; width: 1000px; margin: 80px auto 60px auto;}
@@ -57,7 +83,7 @@ body {}
 .fb_string {overflow: hidden;}
 .fb {margin-top: 64px;}
 .fb_one {float: left; width: 485px;}
-.fb_two {float: right; width: 485px;}
+.fb_two {float: right;}
 .photo {display: inline-block; position: relative; vertical-align: top;}
 .fb_content {font-size: 13pt;  width: 302px; background-color: white;
     padding: 15px; display: inline-block; position: relative; margin-left: 30px;}
@@ -68,3 +94,4 @@ body {}
 .fb_customer {color: #3070a8; float: right; overflow: hidden; height: 20px; width: 150px; text-align: right;}
 .bord {border-bottom: dotted 2px #666666; overflow: hidden; font-style: italic; padding-bottom: 10px;}
 .fb_text {color: #666666; padding-top: 10px;}
+

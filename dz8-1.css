@@ -1,0 +1,10 @@
+body {margin: 0;}
+.search_bar {width: 80%; background-color: yellow;
+    position: relative; padding: 2px 1% 2px 1%; min-width: 250px; }
+.search_bar::after {content: ""; border: solid transparent 23px; border-left: solid yellow 23px; position: absolute;
+    margin-left: 98.5%; margin-top: -44px;}
+.text {min-width: 150px; width: calc(100% - 70px);}
+#check {margin: 0;}
+.lb {font-size: 10px; vertical-align: middle; margin-top: 0;}
+.button {border: none; position: absolute; top: 5px; right: 5px; background-color: transparent; }
+

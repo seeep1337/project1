@@ -1,0 +1,5 @@
+.sema {background-color: yellow; height: 200px; width: 200px; transition: background-color 1.2s ease-out, margin-left 1.2s ease-out;
+    transition-delay: 0.5s, 0s;}
+.sema:hover {background-color: black; margin-left: 150px;}
+.sena {background-color: #ee8129; height: 200px; width: 200px; transition: transform 1.2s linear;}
+.sena:hover {transform: rotate(150deg) translate(150px, 150px);}
